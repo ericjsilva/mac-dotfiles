@@ -75,3 +75,9 @@ else
 fi
 unset __conda_setup
 # <<< conda initialize <<<
+
+fpath=($fpath "$HOME/.zfunctions")
+
+  # Set Spaceship ZSH as a prompt
+  autoload -U promptinit; promptinit
+  prompt spaceship
