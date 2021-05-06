@@ -39,6 +39,9 @@ bindkey "^[[B" history-substring-search-down
 # Tell homebrew to not autoupdate every single time I run it (just once a week).
 export HOMEBREW_AUTO_UPDATE_SECS=604800
 
+# Set the default AWS CLI profile
+export AWS_PROFILE=saml
+
 # Delete a given line number in the known_hosts file.
 knownrm() {
  re='^[0-9]+$'
