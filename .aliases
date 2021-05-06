@@ -5,3 +5,5 @@
 #
 alias code="/Applications/Visual\ Studio\ Code.app/contents/Resources/app/bin/code"
 alias sublime="/Applications/Sublime\ Text.app/Contents/SharedSupport/bin/subl"
+alias kbe="keybase encrypt"
+alias kbd="keybase decrypt"
